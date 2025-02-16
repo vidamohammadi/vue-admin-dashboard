@@ -1,10 +1,11 @@
 <script setup>
- </script>
+</script>
 
 <template>
-
-  <v-btn class="bg-red">sss</v-btn>
- </template>
+  <v-app>
+    <router-view></router-view>
+  </v-app>
+</template>
 
 <style scoped>
 
